@@ -23,9 +23,11 @@ An inline element does not start on a new line and only takes up as much width a
 /* Display: none;
 display: none; is commonly used with JavaScript to hide and show elements without deleting and recreating them. Take a look at our last example on this page if you want to know how this can be achieved.*/
 
-
-li{
-    /* display: inline; */
-    display:none;
+.block{
+    width: 300px;
+    display: inline-block;
+    margin:20px;
 }
-
+.heading{
+    text-align:center;
+}
