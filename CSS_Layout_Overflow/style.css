@@ -1,0 +1,40 @@
+#overflowTest{
+    background-color:darkkhaki;
+    color:black;
+    overflow:scroll;
+    /* The CSS overflow property controls what happens to content that is too big to fit into an area. */
+    padding:15px;
+    width:300px;
+    height:300px;
+    text-align:justify;
+}
+div h3{
+    text-align:center;
+}
+#btn{
+    margin-left:110px;
+    margin-top:10px;
+}
+
+#visible{
+    width:120px;
+    height:120px;
+    background-color:greenyellow;
+    overflow:visible;
+
+}
+#hidden{
+ width:120px;
+    height:120px;
+    background-color:greenyellow;
+    overflow:hidden;   
+}
+
+#auto{
+ width:200px;
+    height:200px;
+    background-color:greenyellow;
+    overflow:auto;   
+    text-align:justify;
+    padding:10px;
+}
