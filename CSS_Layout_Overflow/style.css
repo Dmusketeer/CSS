@@ -38,3 +38,10 @@ div h3{
     text-align:justify;
     padding:10px;
 }
+#overflow-x_and_overflow-y{
+    width:200px;
+    height:100px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    background-color:rgb(170, 172, 165) ;
+}
