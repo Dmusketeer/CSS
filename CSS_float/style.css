@@ -36,3 +36,29 @@ p{
     margin-left:20px;
     
 }
+#clearfix::after{
+    float: right;   /*inherit the parent property*/ 
+    width: 200px;
+    height:150px;
+    margin-left:20px;
+    content: "";
+  clear: both;
+  display: table;
+    
+}
+
+.exp {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
