@@ -1,0 +1,38 @@
+
+#img1{
+    float: left; /*float images into left*/
+      width: 200px;
+    height:150px;
+    margin-right:20px;
+    
+}
+.section{
+    padding:30px;
+    width: 600px;
+
+}
+p{
+    text-align: justify;
+}
+#img2{
+    float: right;   /*float images into right*/ 
+    width: 200px;
+    height:150px;
+    margin-left:20px;
+    
+}
+
+#img4{
+    float: none;   /*will not cloat anywhere remains in default */ 
+    width: 200px;
+    height:150px;
+    margin-left:20px;
+    
+}
+#img3{
+    float: inherit;   /*inherit the parent property*/ 
+    width: 200px;
+    height:150px;
+    margin-left:20px;
+    
+}

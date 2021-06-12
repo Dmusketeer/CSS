@@ -25,6 +25,7 @@ display: none; is commonly used with JavaScript to hide and show elements withou
 
 .block{
     /* width: 300px; */
+    display:flex;
     display: inline-block;
     margin:20px;
     
