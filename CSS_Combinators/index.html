@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS COMBINATOR</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h2 style="text-align:center">CSS COMBINATOR</h2>
+    <div>
+        <table width=100%>
+            <tr>
+                <th>Selecetor</th>
+                <th>Example</th>
+                <th>Example Description</th>
+            </tr>
+            <tr>
+                <td>element element</td>
+                <td> div p</td>
+                <td>Selects all &lt p &gt elements inside
+                    &lt div &gt elements
+                </td>
+            </tr>
+            <tr>
+                <td>element>element  
+                </td>
+                <td> div > p</td>
+                <td>Selects all p elements where the parent is a
+                </td>
+            </tr>
+            <tr>
+                <td>element+element  
+                 </td>
+                <td> div + p</td>
+                <td>Selects the first p element that are placed immediately after
+                </td>
+            </tr>
+            <tr>
+                <td>element1~element2  
+                </td>
+                <td> p ~ ul</td>
+                <td>Selects every ul element that are preceded by a p element
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
