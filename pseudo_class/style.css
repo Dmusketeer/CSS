@@ -1,0 +1,29 @@
+a:link{
+    color:red;
+}
+a:visited{
+color:green;
+}
+
+a:hover{
+    color:orange;
+}
+a:active{
+    color:violet;
+}
+div.div1:hover{
+    background-color:orange;
+}
+div.div1{
+    background-color:mediumseagreen;
+}
+div.div2 > p{
+    background-color:mediumseagreen;
+    text-align:center;
+    padding: 10px;
+    display:none;
+
+}
+div.div2:hover p{
+    display:block;
+}
