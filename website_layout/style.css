@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  /* padding: 10px; */
+  background: #f1f1f1;
+}
+
+.header {
+  height: 80px;
+  font-size: 60px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  /* border:1px solid black; */
+  font: bold;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Create nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
+}
+.navbar {
+  margin: 20px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+li a:hover:not(.active) {
+  background-color: #e95013;
+}
+.active {
+  background-color: #e95013;
+}
+.search {
+  float: right;
+  margin-top: 10px;
+  padding: 10px;
+  margin-right: 30px;
+  border-radius: 4px;
+}
+input:focus {
+  background-color: lightblue;
+}
+
+.leftcolumn {
+  width: 900px;
+}
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: right;
+  width: 25%;
+}
+.card p {
+  text-align: justify;
+}
+.card {
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 20px;
+}
+img {
+  border-radius: 10px;
+}
+.Rcard {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.footer{
+    height:300px;
+    width:1000px;
+}
+
+.footer h2{
+text-align: center;
+font-size:80px;
+color:green;
+}
+
