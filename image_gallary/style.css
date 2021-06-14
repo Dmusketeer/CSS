@@ -1,0 +1,14 @@
+.subcontainer{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top:30px;
+    border:1px solid black;
+    box-shadow: 3px 4px 3px grey;
+}
+.quotes{
+    padding:20px;
+    text-align:center;
+}
+.subcontainer:first-child{
+    margin-left:40px;
+}
